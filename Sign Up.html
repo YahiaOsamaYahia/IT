@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+<link rel="stylesheet" href="CSS/LogIn.css">
+<div class="container">
+<body>
+    <h1>Sign Up</h1> 
+<form>
+<label for="first">First Name</label>
+<input name="first" id="first" type="text" placeholder="John" required>
+<label for="last">Last Name</label>
+<input name="last" id="last" type ="text" placeholder="smith" required > 
+<div>
+<label for="male">Male</label>
+<input id="male" name="gender" type="radio" value="Male">
+<label for="female">Female</label>
+<input id="female" name="geder" type="radio" value="Female">
+<label for="other">Other</label>
+<input id="other" name="gender" type="radio" value="other">  
+</div>
+<div>
+<label>
+Email:
+<input name="email" type="email" placeholder="your email" required >   
+</label>
+<label>
+Password:
+<input name="password" type="password" placeholder ="your password" pattern=".{5,10}" required title="5 to 10 characters" >
+</label>
+</div>
+<button type="submit">Submit</button>
+</form>
+</body>
+</div>
+</head>
+</html>
