@@ -1,0 +1,65 @@
+h1{font-family: 'Tangerine', serif; 
+font-size: 50px;
+    text-align: center;
+border: 10px dotted grey; 
+      padding : 10px ;
+      margin : 10px auto;
+      width: 1000px;}
+
+img{  
+      position: relative;
+      max-width: 700px ;
+      width: 600px ; 
+      height: 500px; 
+      padding-left: 60px;
+     }
+
+.slideshow-container {
+max-width: 500px;
+  position: relative;
+  margin: auto;
+    border: 20px solid grey; 
+      padding : 20px ;
+      max-width: 700px ;
+      width: 80% ; 
+      margin : 20px auto ;
+    font-family: 'Tangerine', serif;
+    height: 600px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.caption {
+  color: black;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.active  {
+  background-color: #717171;
+}
+
